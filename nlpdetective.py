@@ -9,7 +9,7 @@ from nltk.tree import Tree
 
 # Part 2: Mystery Story
 story = """Detective Verstappen had seen a lot in his twenty years with the CIA, 
-but the case in Paris was unlike anything he’d encountered before. 
+but the case in Paris was unlike anything he'd encountered before. 
 A priceless treasure had vanished from the Museum. 
 under impossible circumstances no broken windows, no tripped alarms. 
 The only clue was a single red rose left on the empty wall where the painting once hung. 
@@ -59,3 +59,17 @@ print(f"People: {people}")
 print(f"Locations: {locations}")
 print(f"Organizations: {organizations}")
 
+# How could this kind of NLP be used in the real world?
+print("""\nAs a student learning Natural Language Processing, 
+I realized how powerful tools like tokenization and 
+named entity recognition can be in solving real-world problems. 
+For example, they can help analyze large texts by breaking them down 
+and identifying key people, places, or events. 
+This kind of technology is used in things like chatbots, digital assistants, 
+and even in police investigations to find important information fast. 
+It can also help companies understand what people are saying about 
+them on social media through sentiment analysis. 
+I find it exciting that something I'm learning in class 
+could actually be used in law, business, or healthcare. 
+Working on this project has helped me see how NLP isn't just theory, 
+it's a valuable tool with real impact.""")
